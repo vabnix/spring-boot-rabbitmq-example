@@ -1,0 +1,11 @@
+server:
+  port: ${PORT:8086}
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    password: guest
+    username: guest
+    queueName: spring-boot
+    exchange: spring-boot-exchange
+
